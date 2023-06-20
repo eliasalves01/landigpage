@@ -955,8 +955,10 @@ footer {
 }
 
 .footerInfoP {
-    display: flex;
+display: flex;
     gap: 40px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footerInfoP p {
