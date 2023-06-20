@@ -745,8 +745,8 @@ body {
 }
 
 .cardSobreText p {
-    font-weight: 300;
-    font-size: 0.8rem;
+    font-weight: 400;
+    font-size: 0.85rem;
     line-height: 32px;
     letter-spacing: 0.1em;
 }
@@ -759,8 +759,8 @@ body {
 }
 
 .cardSobreTextLeft p {
-    font-weight: 300;
-    font-size: 0.8rem;
+    font-weight: 400;
+    font-size: 0.85rem;
     line-height: 32px;
     letter-spacing: 0.1em;
 }
