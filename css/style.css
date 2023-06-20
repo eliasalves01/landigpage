@@ -457,6 +457,14 @@ body {
     .titleBanner .boxtitle h1 {
         font-size: 2.1rem !important;
     }
+    .footerInfoP {
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
 }
 
 @media screen and (max-width: 423px) {
@@ -955,10 +963,7 @@ footer {
 }
 
 .footerInfoP {
-display: flex;
     gap: 40px;
-    flex-direction: column;
-    align-items: center;
 }
 
 .footerInfoP p {
