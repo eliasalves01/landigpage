@@ -670,12 +670,12 @@ body {
     justify-content: center;
     text-decoration: none;
 
-    color: black;
-    background: #ffffff;
+    color: rgb(255, 255, 255);
+    background: #4CAF50;
 
     font-weight: 700;
     font-size: 1.5rem;
-    box-shadow: 4px 4px 0px 2px #000000;
+    box-shadow: 4px 4px 0px 2px #207223;
     border-radius: 5px;
     width: 225px;
     height: 50px;
@@ -683,7 +683,7 @@ body {
 }
 
 .ctaAvaliacao a:hover {
-    box-shadow: 2px 2px 0px 2px #000000;
+    box-shadow: 2px 2px 0px 2px #207223;
     transition: 200ms ease all;
 }
 
@@ -883,7 +883,7 @@ img.elementInfo {
     background: #ffffff;
     font-weight: 700;
     font-size: 1rem;
-    box-shadow: 3px 3px 0px 2px #f6ca26;
+    box-shadow: 3px 3px 0px 2px #207223;
     border-radius: 5px;
     width: 165px;
     height: 35px;
