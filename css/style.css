@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: b;
 }
+
 body {
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -18,19 +19,22 @@ body {
     position: absolute;
     filter: opacity(0.5);
 }
+
 .container {
     max-width: 1428px;
 }
+
 .textSelect {
     background-color: #dbbaaf;
     padding: 0px 10px 0px 10px;
     border-radius: 10px;
     color: black;
 }
+
 .textSelectTwo {
     background-color: #dbbaaf;
     padding: 0px 10px 0px 10px;
-    border-radius: 10px 10px 35px 10px;
+    border-radius: 10px 10px 20px 10px;
     color: black;
 }
 
@@ -39,6 +43,7 @@ body {
     border-radius: 5px;
     font-weight: 500;
 }
+
 .textSelectSobre {
     background: #f6ca26;
     border-radius: 5px;
@@ -55,6 +60,7 @@ body {
     font-weight: 700;
     width: 100px;
 }
+
 /* .container {
     display: flex;
     flex-direction: column;
@@ -139,7 +145,7 @@ body {
 
 .titleBanner .boxtitle h1 {
     max-width: 550px;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     line-height: 4rem;
     font-weight: 700;
 }
@@ -159,7 +165,7 @@ body {
     text-decoration: none;
 
     color: rgb(255, 255, 255);
-    background: #4CAF50;
+    background: #4caf50;
 
     font-weight: 700;
     font-size: 1.5rem;
@@ -190,20 +196,24 @@ body {
         width: 100%;
     }
 }
+
 @media screen and (max-width: 1350px) {
     img.elementInfo {
         bottom: 65px !important;
         width: 100%;
     }
+
     .elementFooter {
         bottom: 62px !important;
     }
 }
+
 @media screen and (max-width: 1225px) {
     img.elementInfo {
         bottom: 60px !important;
         width: 100%;
     }
+
     .elementFooter {
         bottom: 55px !important;
     }
@@ -214,132 +224,166 @@ body {
         bottom: 52px !important;
         width: 100%;
     }
+
     .elementFooter {
         bottom: 40px !important;
     }
+
     .titleBanner .boxtitle h1 {
         max-width: 500px;
         font-size: 2.1rem;
     }
+
     .titleBanner .book img {
         width: 100%;
     }
+
     .titleBanner .boxtitle {
         padding: 0rem;
         gap: 15px;
         width: 60%;
     }
+
     .titleBanner .boxtitle p {
         top: 5px;
         font-size: 0.45rem;
     }
+
     .titleBanner .boxtitle a {
         font-size: 1rem;
         width: 166px;
         height: 37px;
     }
+
     .containerPromotion .boxPromotion .boxPricePromotion h2 {
         font-size: 2.5em !important;
     }
 }
+
 @media screen and (max-width: 995px) {
     img.elementInfo {
         bottom: 45px !important;
         width: 100%;
     }
+
     .titleBanner .boxtitle {
         width: 75%;
     }
+
     .titleBanner .boxtitle h1 {
         line-height: 2.8rem;
         font-size: 2rem;
     }
+
     .containerPromotion .boxPromotion .boxPricePromotion h2 {
         font-size: 2.2em !important;
     }
 }
+
 @media screen and (max-width: 890px) {
     .titleBanner .boxtitle {
         width: 95%;
     }
+
     .titleBanner .boxtitle h1 {
         line-height: 2rem;
         font-size: 1.4rem;
     }
+
     .titleBanner .boxtitle a {
         font-size: 0.8rem;
         width: 135px;
         height: 30px;
     }
+
     .containerMockup .boxMockup .mockupText h1 {
         font-size: 1.5rem;
         line-height: 30px;
         letter-spacing: 0;
+
     }
+
     .containerMockup {
         height: 565px;
     }
+
     .containerPromotion .boxPromotion .boxPricePromotion h2 {
         font-size: 2em !important;
     }
+
     .containerAvaliacoes .boxAvaliacoes .cardAvaliacao .cardAvalicaoText {
         padding: 10px 15px 0px 10px !important;
     }
 }
+
 @media screen and (max-width: 768px) {
     .infoTitle {
         margin: 50px 0 95px 0 !important;
     }
+
     img.elementInfo {
         display: none;
     }
+
     .garantiaText p {
         font-size: 12px !important;
     }
+
     .boxFooterInfo {
         padding-top: 30px;
     }
+
     .elementFooter {
         display: none !important;
     }
+
     .container {
         width: 100%;
     }
+
     .containerBanner {
         display: none;
     }
+
     .containerBannerMobile {
         display: flex;
         justify-content: center;
     }
+
     .bannerMobile {
         width: 100%;
     }
+
     .navbar .nav-links a {
         margin-left: 0;
     }
+
     img.bannerImagemMobile {
         width: 100%;
         height: 730px;
         border-radius: 15px;
     }
+
     .titleBanner {
         flex-direction: column-reverse;
-        bottom: 15%;
+        bottom: 35%;
     }
 
     .titleBanner .boxtitle {
         width: 95% !important;
     }
+
     .titleBanner .boxtitle h1 {
         line-height: 3.2rem;
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
+
     .titleBanner .boxtitle p {
-        top: 10px;
-        font-size: 0.52em;
+        top: 20px;
+        font-size: 0.72em;
         letter-spacing: 0.2rem;
     }
+
     .titleBanner .boxtitle a {
         font-size: 1rem;
         width: 223px;
@@ -347,22 +391,26 @@ body {
         position: relative;
         top: 30px;
     }
+
     .textSelect {
         background-color: #dbbaaf;
         padding: 0;
     }
+
     .textSelectTwo {
         background-color: #dbbaaf;
         padding: 0;
     }
 
     .titleBanner .book img {
-        width: 280px;
+        /* width: 280px; */
+        display: none;
     }
 
     .containerMockup {
-        height: 885px !important;
+        height: 1050px !important;
     }
+
     .boxMockup {
         display: flex;
         align-items: center;
@@ -370,13 +418,24 @@ body {
         justify-content: center;
         flex-direction: column;
     }
+
     .containerMockup .boxMockup .mockupText h1 {
         font-size: 1.6rem;
     }
 
+    .containerMockup .boxMockup .mockupText h1 {
+        display: inline;
+        background: linear-gradient(180deg,
+                rgba(255, 255, 255, 0) 65%,
+                rgba(255, 68, 0, 0) 65%);
+        box-shadow: inset 0 -0.5em 0 #f4c20cab;
+    }
+
     .containerMockup .boxMockup .mockupText {
-        max-width: 450px !important;
+        max-width: 335px !important;
+        padding: 20px;
         text-align: center;
+        word-wrap: break-word;
     }
 
     .containerPromotion {
@@ -386,44 +445,166 @@ body {
 
     .containerPromotion .boxPromotion {
         flex-direction: column;
-        width: 80% !important;
-        height: 220px !important;
-        padding: 10px 0 0 !important;
+        width: 85% !important;
+        height: 285px !important;
+        padding: 5px 0 0 !important;
     }
+
     .containerPromotion .boxPromotion .boxPricePromotion {
         width: 100% !important;
     }
+
+    .boxPricePromotionDe {
+        font-size: 2.1rem !important;
+    }
+
     .containerPromotion .boxPromotion .boxPricePromotion h2 {
         font-size: 2.8em !important;
     }
+
+
+
     .containerPromotion .boxPromotion .boxTextPromotion {
         padding: 13px 8px 15px 10px !important;
         text-align: center;
     }
+
     .boxAvaliacoes {
         flex-direction: column;
+        display: none !important;
     }
-    .containerAvaliacoes {
-        height: 1600px !important;
-    }
+
     .containerAvaliacoes .boxAvaliacoesTitle {
+        position: relative;
+        top: 200px;
+    }
+
+    .boxAvaliacoesMobile {
+        display: block !important;
+        top: 240px;
+    }
+
+    .containerAvaliacoes {
+        height: 800px !important;
+    }
+
+    .boxAvaliacoesMobile {
+        display: flex;
+        gap: 70px;
+        padding: 10px;
+    }
+
+    .containerAvaliacoes .boxAvaliacoesMobile .cardAvaliacao {
+        max-width: 500px;
+        min-height: 235px;
+        margin-right: 10px;
+        background: #ffffff;
+        border: 1px solid rgba(0, 0, 0, 0.64);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+    }
+
+    .containerAvaliacoes {
+        display: block !important;
+    }
+
+    .containerAvaliacoes .boxAvaliacoesMobile .cardAvaliacao .cardPerfil {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        font-weight: 500;
+        padding: 10px 0px 10px 10px;
+        border-bottom: 2px solid rgba(46, 46, 46, 0.089);
+        justify-content: space-between;
+    }
+
+    .containerAvaliacoes .boxAvaliacoesMobile .cardAvaliacao .cardPerfil .cardImagem {
+        width: 60px;
+        height: 60px;
+        background: linear-gradient(45deg,
+                #f09433 0%,
+                #e6683c 25%,
+                #dc2743 50%,
+                #cc2366 75%,
+                #bc1888 100%);
+        border-radius: 55px;
+    }
+
+    .containerAvaliacoes .boxAvaliacoesMobile .cardAvaliacao .cardPerfil img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        left: 3px;
+        top: 3px;
+        position: relative;
+        border: 2px solid rgb(255, 255, 255);
+    }
+
+    .containerAvaliacoes .boxAvaliacoesMobile .cardAvaliacao .cardPerfil ul img {
+        width: 25px;
+        height: 25px;
+        padding-left: 10px;
+        border: none;
+    }
+
+    .cardPerfil .boxImage {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .containerAvaliacoes .boxAvaliacoesMobile .cardAvaliacao .cardAvalicaoText {
+        padding: 10px 10px 10px 10px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 0.82rem;
+        line-height: 22px;
+        letter-spacing: 0.1em;
+    }
+
+    .containerAvaliacoes .boxAvaliacoesMobileoxAvaliacoesTitle {
         width: 90% !important;
         font-size: 1.8rem !important;
         margin-top: 230px !important;
     }
 
+
     .boxSobre {
+        display: none !important;
+    }
+
+    .boxSobreMobile {
+        display: block !important;
+        text-align: center;
         padding: 5% !important;
     }
-    .cardSobre {
+
+    .boxSobreMobile .boxSobreTitle {
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 60px;
+        max-width: 500px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        margin-top: 35px;
+        color: #000000;
+    }
+
+    .boxSobreMobile {
         flex-direction: column;
         align-items: center;
         gap: 35px !important;
     }
-    .cardSobre img {
-        width: 200px;
+
+    .boxSobreMobile img {
+        width: 220px;
     }
-    .cardSobreText {
+
+    .boxSobreMobile .cardSobre {
+        margin-bottom: 50px;
+    }
+
+    /* .cardSobreText {
         gap: 20px;
         align-items: center;
     }
@@ -433,12 +614,22 @@ body {
         align-items: center;
         gap: 35px !important;
     }
+
     .cardSobreleft img {
         width: 200px;
     }
+
     .cardSobreTextLeft {
         gap: 20px;
         align-items: center !important;
+    } */
+
+    .textExtraMasMobile {
+        font-size: 20px;
+        letter-spacing: 2px;
+        display: inline;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 65%, rgba(255, 68, 0, 0) 65%);
+        box-shadow: inset 0 -0.5em 0 #f4c20cab;
     }
 
     /* Footer */
@@ -448,15 +639,18 @@ body {
         flex-direction: column-reverse !important;
         align-items: center;
     }
+
     img.elementInfo {
         bottom: 25px;
         bottom: 27px !important;
     }
 }
+
 @media screen and (max-width: 510px) {
     .titleBanner .boxtitle h1 {
         font-size: 2.1rem !important;
     }
+
     .footerInfoP {
         display: flex;
         flex-direction: column;
@@ -478,22 +672,32 @@ body {
     align-items: center;
     height: 500px;
 }
+
 .boxMockup {
     display: flex;
     align-items: center;
     gap: 50px;
     justify-content: center;
 }
+
 .containerMockup .boxMockup .mockupText {
     max-width: 480px;
+
 }
+
 .containerMockup .boxMockup .mockupText h1 {
     font-size: 1.8rem;
     font-weight: 600;
     color: #232222;
     line-height: 40px;
     letter-spacing: 2px;
+    display: inline;
+    background: linear-gradient(180deg,
+            rgba(255, 255, 255, 0) 65%,
+            rgba(255, 68, 0, 0) 65%);
+    box-shadow: inset 0 -0.5em 0 #f4c20cab;
 }
+
 .containerMockup .boxMockup .mockupText p {
     max-width: 450px;
     font-size: 0.92rem;
@@ -517,7 +721,7 @@ body {
 .containerPromotion .boxPromotion {
     display: flex;
     width: 50%;
-    height: 140px;
+    height: 180px;
     padding: 5px 15px 5px 5px;
     align-items: center;
     justify-content: center;
@@ -527,6 +731,7 @@ body {
         inset 0px 0px 2px rgba(255, 255, 255, 0.25);
     border-radius: 15px 15px 25px 25px;
 }
+
 .containerPromotion .boxPromotion .boxPricePromotion {
     display: flex;
     flex-direction: column;
@@ -534,28 +739,32 @@ body {
     text-align: center;
 
     width: 32rem;
-    height: 125px;
+    height: 85%;
     background: rgba(49, 49, 49, 0.6);
     box-shadow: inset 0px 0px 2px rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(20px);
     border-radius: 10px 10px 25px 25px;
     align-items: center;
 }
+
 .containerPromotion .boxPromotion .boxPricePromotion h2 {
     font-size: 3em;
     color: #f4c10c;
 }
+
 .containerPromotion .boxPromotion .boxPricePromotion p {
     font-size: 0.75rem;
 }
+
 .containerPromotion .boxPromotion .boxTextPromotion {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     padding: 10px 8px 5px 10px;
     max-width: 800px;
 }
+
 .containerPromotion .boxPromotion .boxTextPromotion p:last-child {
     margin-top: 20px;
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     color: #f4c10c;
 }
 
@@ -567,14 +776,12 @@ body {
     align-items: center;
     width: 100%;
     height: 855px;
-    background: linear-gradient(
-        90deg,
-        #dbbaaf 0%,
-        #dbbaaf 25%,
-        #dbbaaf 47.4%,
-        #dbbaaf 75%,
-        #dbbaaf 100%
-    );
+    background: linear-gradient(90deg,
+            #dbbaaf 0%,
+            #dbbaaf 25%,
+            #dbbaaf 47.4%,
+            #dbbaaf 75%,
+            #dbbaaf 100%);
     border-radius: 15px;
 }
 
@@ -583,6 +790,11 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
 }
+
+.boxAvaliacoesMobile.slick-initialized.slick-slider {
+    display: none;
+}
+
 
 .containerAvaliacoes .boxAvaliacoesTitle {
     text-align: center;
@@ -598,19 +810,21 @@ body {
 
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 .boxAvaliacoes {
     display: flex;
     gap: 70px;
     padding: 10px;
 }
+
 .containerAvaliacoes .boxAvaliacoes .cardAvaliacao {
-    max-width: 305px;
-    max-height: 100%;
+
     background: #ffffff;
     border: 1px solid rgba(0, 0, 0, 0.64);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
+
 .containerAvaliacoes .boxAvaliacoes .cardAvaliacao .cardPerfil {
     display: flex;
     align-items: center;
@@ -620,17 +834,16 @@ body {
 
     border-bottom: 2px solid rgba(46, 46, 46, 0.089);
 }
+
 .containerAvaliacoes .boxAvaliacoes .cardAvaliacao .cardPerfil .cardImagem {
     width: 60px;
     height: 60px;
-    background: linear-gradient(
-        45deg,
-        #f09433 0%,
-        #e6683c 25%,
-        #dc2743 50%,
-        #cc2366 75%,
-        #bc1888 100%
-    );
+    background: linear-gradient(45deg,
+            #f09433 0%,
+            #e6683c 25%,
+            #dc2743 50%,
+            #cc2366 75%,
+            #bc1888 100%);
     border-radius: 55px;
 }
 
@@ -652,14 +865,16 @@ body {
     line-height: 22px;
     letter-spacing: 0.1em;
 }
+
 .cardStars {
     height: 40px;
 }
+
 .cardStars ul {
     display: flex;
     list-style-type: none;
     width: 50%;
-    height: 34px;
+    height: 25px;
     justify-content: space-evenly;
     align-items: flex-end;
 }
@@ -671,14 +886,13 @@ body {
     text-decoration: none;
 
     color: rgb(255, 255, 255);
-    background: #4CAF50;
+    background: #4caf50;
 
     font-weight: 700;
-    font-size: 1.5rem;
     box-shadow: 4px 4px 0px 2px #207223;
     border-radius: 5px;
-    width: 225px;
-    height: 50px;
+    width: 200px;
+    height: 35px;
     transition: 420ms ease all;
 }
 
@@ -700,6 +914,7 @@ body {
     width: 100%;
     background: white;
 }
+
 .boxSobre {
     display: flex;
     flex-direction: column;
@@ -707,6 +922,11 @@ body {
     padding: 2%;
     margin-bottom: 130px;
 }
+
+.boxSobreMobile {
+    display: none;
+}
+
 .boxSobre .boxSobreTitle {
     font-weight: 600;
     font-size: 1.5rem;
@@ -718,6 +938,9 @@ body {
     color: #000000;
 }
 
+
+
+
 .cardSobreleft {
     display: flex;
     flex-direction: row-reverse;
@@ -726,18 +949,22 @@ body {
     gap: 90px;
     margin-top: 100px;
 }
+
 .cardSobreleft img {
     filter: drop-shadow(4px 3px 0px #f6ca26);
 }
+
 .cardSobre {
     max-width: 100%;
     display: flex;
     gap: 90px;
     margin-top: 100px;
 }
+
 .cardSobre img {
     filter: drop-shadow(4px 3px 0px #f6ca26);
 }
+
 .cardSobreText {
     display: flex;
     flex-direction: column;
@@ -764,11 +991,13 @@ body {
     line-height: 32px;
     letter-spacing: 0.1em;
 }
+
 h1.textExtraMas {
     font-size: 30px;
     margin-top: 50px;
     color: #0b0c0e;
 }
+
 /**/
 
 .containerInfo {
@@ -777,11 +1006,13 @@ h1.textExtraMas {
     display: flex;
     flex-direction: column;
 }
+
 img.elementInfo {
     position: relative;
     bottom: 73px;
     width: 100%;
 }
+
 .infoTitle {
     color: white;
     margin: 0px 0 95px 0;
@@ -790,6 +1021,7 @@ img.elementInfo {
     display: flex;
     justify-content: center;
 }
+
 .infoTitle h1 {
     font-size: 3.3rem;
 }
@@ -798,6 +1030,7 @@ img.elementInfo {
     font-size: 0.95rem;
     font-weight: 300;
 }
+
 .boxInfoTitle p {
     margin: 0 auto;
     max-width: 350px;
@@ -812,6 +1045,7 @@ img.elementInfo {
 
     align-items: center;
 }
+
 .cardInfos {
     border: 3px dashed rgba(255, 255, 255, 0.701);
     border-radius: 15px;
@@ -822,12 +1056,15 @@ img.elementInfo {
     align-items: center;
     padding: 10px;
 }
+
 .cardInfos {
     color: white;
 }
+
 .cardInfos h1 {
     font-weight: 300;
 }
+
 .boxInfosI {
     height: 100%;
     display: flex;
@@ -835,19 +1072,23 @@ img.elementInfo {
     flex-direction: column;
     align-items: center;
 }
+
 .optionsBox {
     gap: 20px;
     display: flex;
     flex-direction: column;
 }
+
 .optionsBox img {
     width: 12px;
 }
+
 .optionsBox p {
     border-bottom: 1px dashed white;
     padding-bottom: 10px;
     font-size: 0.75rem;
 }
+
 .textOptionBoxEx {
     font-size: 0.85rem;
     font-weight: 300;
@@ -855,6 +1096,7 @@ img.elementInfo {
     max-width: 250px;
     line-height: 25px;
 }
+
 .BoinfoPrice {
     display: flex;
     flex-direction: column;
@@ -864,38 +1106,44 @@ img.elementInfo {
     padding: 10px;
     width: 85%;
 }
+
 .BoinfoPrice h2 {
     font-size: 2.5rem;
     color: #f6ca26;
     animation: Valuebox 2000ms infinite alternate;
 }
+
 .BoinfoPrice p {
     font-size: 0.75rem;
     max-width: 130px;
     text-align: center;
 }
+
 .boxInfoPriceCta a {
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    background: #4CAF50;
+    background: #4caf50;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.3rem;
     box-shadow: 3px 3px 0px 2px #0c500f;
     border-radius: 5px;
-    width: 165px;
-    height: 35px;
+    width: 250px;
+    height: 50px;
     transition: 420ms ease all;
 }
+
 .boxFormPayments {
     text-align: center;
 }
+
 .boxFormPayments img {
     margin-top: 5px;
     width: 40px;
 }
+
 .cardInfoGarantia {
     color: white;
     width: 330px;
@@ -905,6 +1153,7 @@ img.elementInfo {
     gap: 40px;
     text-align: center;
 }
+
 .cardInfoGarantia img {
     max-width: 255px;
     width: 220px;
@@ -936,11 +1185,13 @@ footer {
     flex-direction: column;
     align-items: center;
 }
+
 .elementFooter {
     position: relative;
     bottom: 73px;
     width: 100%;
 }
+
 .footerInfos {
     display: flex;
     height: 100%;
@@ -953,6 +1204,7 @@ footer {
 
     color: white;
 }
+
 .footerInfos h2 {
     font-size: 1.4rem;
     letter-spacing: 3px;
@@ -968,29 +1220,39 @@ footer {
     display: flex;
     gap: 5px;
 }
+
 .footerCertific {
     margin-top: 40px;
     letter-spacing: 3px;
 }
+
 .footerCertific img {
     padding: 20px;
 }
+
 .footerPolitic {
     border-bottom: 2px solid #383838;
     padding-bottom: 15px;
     margin-bottom: 20px;
     width: 100%;
 }
+
 .footerPolitic ul {
     display: flex;
     gap: 32px;
     font-weight: 200;
     justify-content: center;
 }
+
 .footerPolitic ul li:first-child {
     list-style-type: none;
 }
+
 @media (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+
     .navbar .nav-links {
         display: none;
         width: 100%;
@@ -1001,6 +1263,7 @@ footer {
         display: block;
     }
 }
+
 .boxpricePromotionAnimatin {
     animation: Valuebox 2000ms infinite alternate;
 }
@@ -1009,10 +1272,12 @@ footer {
     0% {
         transform: scale(104%);
     }
+
     100% {
         transform: scale(115%);
     }
 }
+
 .animate__animated.animate__fadeInDown {
     --animate-duration: 3s;
 }
