@@ -358,6 +358,12 @@ body {
         margin-left: 0;
     }
 
+    img.bannerImagemMobile {
+        width: 100%;
+        height: 730px;
+        border-radius: 0 0 50px 50px;
+    }
+
     .titleBanner {
         flex-direction: column-reverse;
         bottom: 35%;
