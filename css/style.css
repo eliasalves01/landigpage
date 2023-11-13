@@ -385,7 +385,7 @@ body {
     }
 
     .titleBanner .boxtitle a {
-        font-size: 1rem;
+        font-size: 1.2rem;
         width: 245px;
         height: 50px;
         position: relative;
@@ -801,7 +801,7 @@ body {
     max-width: 600px;
     margin-top: 110px;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     line-height: 69px;
     text-align: center;
     letter-spacing: 0.04em;
@@ -904,6 +904,28 @@ body {
 .ctaAvaliacao a:active {
     transform: scale(97%);
     transition: 200ms ease all;
+}
+
+.ctaSobre {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.ctaSobre a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: #4caf50;
+    font-weight: 700;
+    box-shadow: 4px 4px 0px 2px #207223;
+    border-radius: 5px;
+    width: 245px;
+    height: 50px;
+    transition: 420ms ease all;
+    font-size: 1.3rem;
 }
 
 /*Sobre*/
